@@ -44,7 +44,4 @@ def make_csv(csv_name, tweets_list):
             f.writerow([str(i['message_id']), str(i['message_text'])])
 
 
-# tweets = find_tweets('ozon.ru', 1000, 'OZON')
-# print(tweets)
-# make_csv('new_100', tweets)
 
